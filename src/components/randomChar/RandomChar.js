@@ -19,7 +19,7 @@ class RandomChar extends Component{
 
      marvelService= new MarvelService();
      updateChar=()=>{
-         const id= 10000;
+         const id= 1;
          this.marvelService
             .getCharacter(id)
             .then(res=>{
